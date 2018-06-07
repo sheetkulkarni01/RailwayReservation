@@ -9,6 +9,7 @@ public class Railwaysystem {
     Status Mybook=new Status();
     Scanner isr=new Scanner(System.in);
     Scanner br=new Scanner(System.in);
+    Reservation mybook= new Reservation();
     
     Exit:
     do
@@ -33,7 +34,7 @@ public class Railwaysystem {
 
     {
 
-    case 1:         
+    case 1:  mybook.doBook();      
     break;
 
     case 2:
