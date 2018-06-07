@@ -12,11 +12,11 @@ import java.util.Scanner;
 public class CancelTicket {
     /**
      * This method is used to cancel a particular ticket.The user has to select one class type.
- * It has three class types.
- * 1.AC class  2.First class  3.Sleeper class
- * The class  asks the user to enter details and then checks if the user is present or not.
- * Depending upon the number of tickets , the class calculates the total amount to be paid back to the user. 
- * @author Shaheen Havaldar
+     * It has three class types.
+     * 1.AC class  2.First class  3.Sleeper class
+     * The class  asks the user to enter details and then checks if the user is present or not.
+     * Depending upon the number of tickets , the class calculates the total amount to be paid back to the user. 
+     * @author Shaheen Havaldar
      */
     public void doCancel()
 
