@@ -62,4 +62,77 @@ public class Status {
     System.out.println("No such passenger");
 
     }
+    
+     public void doDispList()
+
+    {
+
+    System.out.println("Passenger list in AC class");
+
+   System.out.println("pno \t name \t\t age \t phno");
+
+    for(int i=0;i<passenger_count;i++)
+
+    {
+
+    if(class_type[i]==1)
+
+    {
+
+    System.out.println(passenger_no[i]+"\t"+name[i]+"\t\t"+age[i]+"\t"+phone_no[i]);
+
+    }
+
+    }
+
+    System.out.println("Passenger list in First class");
+
+    System.out.println("pno \t name \t\t age \t phno");
+
+    for(int i=0;i<passenger_count;i++)
+
+    {
+
+    if(class_type[i]==2)
+
+    {
+
+    System.out.println(passenger_no[i]+"\t"+name[i]+"\t\t"+age[i]+"\t"+phone_no[i]);
+
+    }
+
+    }
+
+   System.out.println("Passenger list in Sleeper class");
+
+    System.out.println("pno \t name \t\t age \t phno");
+
+  for(int i=0;i<passenger_count;i++)
+
+    {
+
+    if(class_type[i]==3)
+
+    {
+
+    System.out.println(passenger_no[i]+"\t"+name[i]+"\t\t"+age[i]+"\t"+phone_no[i]);
+
+   }
+
+    }
+
+    }
+  public void doDispUnbooked()
+
+    {
+
+    System.out.println("No. of booked tickets status");
+
+    System.out.println("AC class"+max1);
+
+    System.out.println("First class"+max2);
+
+    System.out.println("Sleeper class"+max3);
+
+    }
 }

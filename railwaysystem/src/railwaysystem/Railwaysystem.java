@@ -42,10 +42,10 @@ public class Railwaysystem {
     case 3:Mybook.doSearch();
     break;
 
-    case 4:
+    case 4:Mybook.doDispList();
     break;
 
-    case 5:
+    case 5:Mybook.doDispUnbooked();
     break;
 
     case 6:break Exit;
