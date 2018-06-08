@@ -12,7 +12,7 @@ public class Railwaysystem {
     Reservation mybook= new Reservation();
     CancelTicket ticket=new CancelTicket();
     
-    Exit:
+    
     do
     {    
     System.out.println("1.Book ticket");
@@ -50,7 +50,7 @@ public class Railwaysystem {
     case 5:Mybook.doDispUnbooked();
     break;
 
-    case 6:break Exit;
+    case 6:System.exit(0);
 
     default :System.out.println("Invalid choice");
 
