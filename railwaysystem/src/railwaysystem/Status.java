@@ -69,6 +69,9 @@ public class Status {
     System.out.println("No such passenger");
 
     }
+    /**
+     * Method to display passenger number,name,age and phone number of passengers of respective classes
+     */
     
      public void doDispList()
 
@@ -129,6 +132,10 @@ public class Status {
     }
 
     }
+     
+     /**
+      * doDispUnbooked method displays the number of seats available after booking
+      */
   public void doDispUnbooked()
 
     {
