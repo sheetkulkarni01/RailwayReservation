@@ -97,7 +97,7 @@ public class Reservation {
 
                              class_type[passenger_count]=c;
 
-                             System.out.println("Please enter your phno");
+                             System.out.println("Please enter your phone_no");
 
                               phone_no[passenger_count]=br.next();
 

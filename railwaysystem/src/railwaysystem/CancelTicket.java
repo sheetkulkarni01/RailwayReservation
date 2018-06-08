@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package railwaysystem;
 import java.util.Scanner;
 /**The class ancelTiket is used to cancel a particular ticket. If the user wants to cancel hi/her  booked ticket
@@ -19,7 +14,6 @@ public class CancelTicket {
      * @author Shaheen Havaldar
      */
     public void doCancel()
-
     {
         int passenger_no[]=new int[275];
 
@@ -63,11 +57,9 @@ public class CancelTicket {
         int[] t_cl = null;
 
     for(int i=0;i<passenger_count;i++)
-
     {
 
     if(passenger_no[i]!=p)
-
     {
 
     t_pno[t_pcount]=passenger_no[i];
@@ -82,52 +74,40 @@ public class CancelTicket {
     t_cl[t_pcount]=c1[i];
 
     t_pcount++;
-
     }
 
     else
-
     {
 
     passengerFound=1;
 
     if(cl[i]==1)
-
     {
 
     max1++;
 
     System.out.println("Please collect refund of Rs."+800);
-
     }
 
     if(cl[i]==2)
-
     {
-
     max2++;
 
     System.out.println("Please collect refund of Rs."+500);
-
     }
 
     if(cl[i]==3)
-
     {
 
     max3++;
 
     System.out.println("Please collect refund of Rs."+250);
-
     }
     }
-
    }
 
     if(passengerFound==1)
-
     {
-
     passenger_no=t_pno;
 
     name=t_name;
@@ -141,8 +121,6 @@ public class CancelTicket {
     passenger_count=t_pcount;
 
     System.out.println("ticket successfully cancelled");
-
     }
-
     }
 }
