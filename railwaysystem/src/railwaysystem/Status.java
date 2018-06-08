@@ -2,6 +2,10 @@ package railwaysystem;
 
 import java.util.Scanner;
 
+/**
+ * Class for searching a passenger and displaying booked and unbooked tickets
+ * @author Sheetal,Rumana
+ */
 public class Status {
     int[] passenger_no=new int[275];
 
@@ -23,6 +27,9 @@ public class Status {
 
     int max3=175;
     
+    /**
+     * Method to search a passenger
+     */  
     public void doSearch()
     {
         Scanner br=new Scanner(System.in);
