@@ -10,6 +10,7 @@ public class Railwaysystem {
     Scanner isr=new Scanner(System.in);
     Scanner br=new Scanner(System.in);
     Reservation mybook= new Reservation();
+    CancelTicket ticket=new CancelTicket();
     
     Exit:
     do
@@ -37,7 +38,7 @@ public class Railwaysystem {
     case 1:  mybook.doBook();      
     break;
 
-    case 2:
+    case 2: ticket.doCancel();
     break;
 
     case 3:Mybook.doSearch();
