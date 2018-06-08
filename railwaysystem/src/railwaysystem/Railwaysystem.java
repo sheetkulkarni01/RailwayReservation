@@ -2,6 +2,11 @@ package railwaysystem;
 
 import java.util.Scanner;
 
+/**
+ * Class Class contains definition of various methods to book and cancel tickets, search passenger,
+ * display booked and unbooked tickets 
+ * @author Sheetal, Rumana, Sanjidah and Shaheen
+ */
 public class Railwaysystem {
 
     public static void main(String[] args) {
