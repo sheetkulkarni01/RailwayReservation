@@ -19,7 +19,7 @@ public class CancelTicket {
 
     String name[]=new String[275];
 
-    String phno[]=new String[275];
+    String phone_no[]=new String[275];
     
         int age[]=new int[275];
 
@@ -27,7 +27,7 @@ public class CancelTicket {
 
     int passenger_count=0;
 
-    int pnum=1;
+    int passenger_num=1;
 
     int max1=75;
 
@@ -36,17 +36,17 @@ public class CancelTicket {
     int max3=175;
     
         Scanner br=new Scanner(System.in);
-    int t_pno[]=new int[275];
+    int t_passenger_no[]=new int[275];
 
     String t_name[]=new String[275];
 
-    String t_phno[]=new String[275];
+    String t_phone_no[]=new String[275];
 
     int t_age[]=new int[275];
 
     int t_c1[]=new int[275];
 
-    int t_pcount=0;
+    int t_passenger_count=0;
 
     int passengerFound=0;
 
@@ -62,18 +62,18 @@ public class CancelTicket {
     if(passenger_no[i]!=p)
     {
 
-    t_pno[t_pcount]=passenger_no[i];
+    t_passenger_no[t_passenger_count]=passenger_no[i];
 
-    t_name[t_pcount]=name[i];
+    t_name[t_passenger_count]=name[i];
 
-    t_phno[t_pcount]=phno[i];
+    t_phone_no[t_passenger_count]=phone_no[i];
 
-    t_age[t_pcount]=age[i];
+    t_age[t_passenger_count]=age[i];
         int[] c1 = null;
 
-    t_cl[t_pcount]=c1[i];
+    t_cl[t_passenger_count]=c1[i];
 
-    t_pcount++;
+    t_passenger_count++;
     }
 
     else
@@ -108,7 +108,7 @@ public class CancelTicket {
 
     if(passengerFound==1)
     {
-    passenger_no=t_pno;
+    passenger_no=t_passenger_no;
 
     name=t_name;
 
@@ -116,9 +116,9 @@ public class CancelTicket {
 
    cl=t_cl;
 
-    phno=t_phno;
+    phone_no=t_phone_no;
 
-    passenger_count=t_pcount;
+    passenger_count=t_passenger_count;
 
     System.out.println("ticket successfully cancelled");
     }
