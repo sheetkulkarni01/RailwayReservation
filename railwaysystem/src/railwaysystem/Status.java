@@ -69,75 +69,56 @@ public class Status {
     System.out.println("No such passenger");
 
     }
+    
     /**
      * Method to display passenger number,name,age and phone number of passengers of respective classes
-     */
-    
-     public void doDispList()
-
+     */    
+    public void doDispList()
     {
-
     System.out.println("Passenger list in AC class");
 
    System.out.println("pno \t name \t\t age \t phno");
 
     for(int i=0;i<passenger_count;i++)
-
     {
 
     if(class_type[i]==1)
-
     {
-
     System.out.println(passenger_no[i]+"\t"+name[i]+"\t\t"+age[i]+"\t"+phone_no[i]);
-
     }
 
     }
-
     System.out.println("Passenger list in First class");
 
     System.out.println("pno \t name \t\t age \t phno");
 
     for(int i=0;i<passenger_count;i++)
-
     {
-
     if(class_type[i]==2)
-
     {
-
     System.out.println(passenger_no[i]+"\t"+name[i]+"\t\t"+age[i]+"\t"+phone_no[i]);
 
     }
 
     }
-
    System.out.println("Passenger list in Sleeper class");
-
     System.out.println("pno \t name \t\t age \t phno");
 
   for(int i=0;i<passenger_count;i++)
-
     {
-
     if(class_type[i]==3)
-
     {
-
     System.out.println(passenger_no[i]+"\t"+name[i]+"\t\t"+age[i]+"\t"+phone_no[i]);
-
-   }
+    }
 
     }
 
     }
      
-     /**
-      * doDispUnbooked method displays the number of seats available after booking
-      */
-  public void doDispUnbooked()
-
+    /**
+     * doDispUnbooked method displays the number of seats available after booking
+     */
+    public void doDispUnbooked()
     {
 
     System.out.println("No. of booked tickets status");

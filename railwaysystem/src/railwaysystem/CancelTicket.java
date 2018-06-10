@@ -1,6 +1,6 @@
 package railwaysystem;
 import java.util.Scanner;
-/**The class ancelTiket is used to cancel a particular ticket. If the user wants to cancel his/her  booked ticket
+/**The class CancelTicket is used to cancel a particular ticket. If the user wants to cancel his/her  booked ticket
  * the they can do so by filling  particular details and then select to delete and get the money refunded in your account 
  * @author Shaheen Havaldar
  */
@@ -9,7 +9,7 @@ public class CancelTicket {
      * This method is used to cancel a particular ticket.The user has to select one class type.
      * It has three class types.
      * 1.AC class  2.First class  3.Sleeper class
-     * The class  asks the user to enter details and then checks if the user is present or not.
+     * The class asks the user to enter details and then checks if the user is present or not.
      * Depending upon the number of tickets , the class calculates the total amount to be paid back to the user. 
      * @author Shaheen Havaldar
      */
@@ -114,7 +114,7 @@ public class CancelTicket {
 
     age=t_age;
 
-   cl=t_cl;
+    cl=t_cl;
 
     phone_no=t_phone_no;
 
